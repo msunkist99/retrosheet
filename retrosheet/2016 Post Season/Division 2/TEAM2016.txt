@@ -1,0 +1,4 @@
+BOS,A,Boston,Red Sox
+CLE,A,Cleveland,Indians
+LAN,N,Los Angeles,Dodgers
+WAS,N,Washington,Nationals

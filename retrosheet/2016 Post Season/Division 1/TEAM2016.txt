@@ -1,0 +1,4 @@
+TEX,A,Texas,Rangers
+TOR,A,Toronto,Blue Jays
+CHN,N,Chicago,Cubs
+SFN,N,San Francisco,Giants

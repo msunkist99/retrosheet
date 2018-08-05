@@ -1,0 +1,4 @@
+BAL,A,Baltimore,Orioles
+TOR,A,Toronto,Blue Jays
+NYN,N,New York,Mets
+SFN,N,San Francisco,Giants

@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E80415A9-80A9-4DB6-A32F-C6BAF262CBAC}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Retrosheet_Persist</RootNamespace>
+    <AssemblyName>Retrosheet_Persist</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminInfoPersist.cs" />
+    <Compile Include="Admin_Info.cs">
+      <DependentUpon>retrosheet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ballpark.cs">
+      <DependentUpon>retrosheet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BallparkPersist.cs" />
+    <Compile Include="BatterAdjustmentPersist.cs" />
+    <Compile Include="Batter_Adjustment.cs">
+      <DependentUpon>retrosheet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ejection.cs">
+      <DependentUpon>retrosheet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EjectionPersist.cs" />
+    <Compile Include="GameCommentPersist.cs" />
+    <Compile Include="GameDataPersist.cs" />
+    <Compile Include="GameInfoPersist.cs" />
+    <Compile Include="GameInformationPersist.cs" />
+    <Compile Include="Game_Comment.cs">
+      <DependentUpon>retrosheet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Game_Data.cs">
+      <DependentUpon>retrosheet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Game_Info.cs">
+      <DependentUpon>retrosheet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Game_Information.cs">
+      <DependentUpon>retrosheet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Game_Suspension.cs">
+      <DependentUpon>retrosheet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Personnel.cs">
+      <DependentUpon>retrosheet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PersonnelPersist.cs" />
+    <Compile Include="PitcherAdjustmentPersist.cs" />
+    <Compile Include="Pitcher_Adjustment.cs">
+      <DependentUpon>retrosheet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Play.cs">
+      <DependentUpon>retrosheet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Player.cs">
+      <DependentUpon>retrosheet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerPersist.cs" />
+    <Compile Include="PlayPersist.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Protest.cs">
+      <DependentUpon>retrosheet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReferenceDataPersist.cs" />
+    <Compile Include="Reference_Data.cs">
+      <DependentUpon>retrosheet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Replay.cs">
+      <DependentUpon>retrosheet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReplayPersist.cs" />
+    <Compile Include="retrosheet.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>retrosheet.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="retrosheet.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>retrosheet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="retrosheet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>retrosheet.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="retrosheetDataSet.cs">
+      <DependentUpon>retrosheetDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="retrosheetDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>retrosheetDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Retrosheet_Queries.cs" />
+    <Compile Include="StartingPlayerPersist.cs" />
+    <Compile Include="Starting_Player.cs">
+      <DependentUpon>retrosheet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SubstitutePlayerPersist.cs" />
+    <Compile Include="SubstituteUmpirePersist.cs" />
+    <Compile Include="Substitute_Player.cs">
+      <DependentUpon>retrosheet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Substitute_Umpire.cs">
+      <DependentUpon>retrosheet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Team.cs">
+      <DependentUpon>retrosheet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TeamPersist.cs" />
+    <Compile Include="Team_Batting_Order_Adjustment.cs">
+      <DependentUpon>retrosheet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TruncateRetrosheetTables.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <EntityDeploy Include="retrosheet.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>retrosheet.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="retrosheet.edmx.diagram">
+      <DependentUpon>retrosheet.edmx</DependentUpon>
+    </None>
+    <None Include="retrosheetDataSet.xsc">
+      <DependentUpon>retrosheetDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="retrosheetDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>retrosheetDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="retrosheetDataSet.xss">
+      <DependentUpon>retrosheetDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="retrosheet.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>retrosheet.edmx</DependentUpon>
+      <LastGenOutput>retrosheet.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="retrosheet.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>retrosheet.edmx</DependentUpon>
+      <LastGenOutput>retrosheet.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Retrodata_EventData\Retrosheet_EventData.csproj">
+      <Project>{b1a373af-9998-4c98-b25d-d427ce31abb0}</Project>
+      <Name>Retrosheet_EventData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Retrodata_ReferenceData\Retrosheet_ReferenceData.csproj">
+      <Project>{9c14a56f-aed4-4c55-9846-4de99be7af2c}</Project>
+      <Name>Retrosheet_ReferenceData</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

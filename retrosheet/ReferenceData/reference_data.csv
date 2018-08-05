@@ -1,0 +1,124 @@
+﻿ref_data_type,ref_data_code,ref_data_desc
+field_position,5,third base
+play_modifier,BINT,batter interference
+ejection,M,manager
+ump_position,umplf,left field
+sky,0,unknown
+ejection,C,coach
+precipitation,0,unknown
+precipitation,4,rain
+field_position,2,catcher
+play_modifier,IF,infield fly rule
+game_number,1,first game of double header
+field_condition,0,unknown
+play_modifier,MREV,manager challenge of call on the field
+field_position,11,pinch hitter
+ump_position,ump3b,third base
+game_team,0,home team
+play_modifier,BPDP,bunt popped into double play
+play_modifier,FDP,fly ball double play
+field_condition,2,wet
+instant_replay_reason,I,fan interference
+ejection,N,non-uniformed person
+play_modifier,BP,bunt pop up
+play_modifier,COUR,courtesy runner
+play_modifier,SH,sacrifice hit (bunt)
+play_modifier,F,fly
+ump_position,umphome,home plate
+precipitation,1,none
+play_modifier,R$,relay throw from initial fielder to $ with no out
+precipitation,3,showers
+protest,H,disallowed protest by home team
+play_modifier,LDP,lined into double play
+temperature,0,unknown
+wind_direction,1,to left
+instant_replay_type,X,other
+wind_direction,2,to center
+play_modifier,NDP,no double play credited for this play
+field_position,6,short stop
+ump_position,umprf,right field
+play_modifier,GDP,ground ball double play
+game_number,0,single game
+sky,3,overcast
+sky,2,cloudy
+pitch_code,U,unknown or missed pitch
+instant_replay_type,P,home plate collision
+play_modifier,COUB,courtesy batter
+field_position,3,first base
+wind_direction,5,from left
+field_position,1,pitcher
+play_modifier,IPHR,inside the park home run
+field_position,0,unknown
+field_condition,1,soaked
+protest,V,disallowed protest by visiting team
+pitch_code,Y,ball put into play on pitchout
+play_modifier,COUF,courtesy fielder
+wind_direction,8,right to left
+field_position,10,designated hitter
+protest,P,unidentified team
+play_modifier,BR,runner hit by batted ball
+play_modifier,RINT,runner interference
+play_modifier,FO,force out
+play_modifier,C,called third strike
+play_modifier,BGDP,bunt grounded into double play
+game_number,2,second game of double header
+ump_position,ump2b,second base
+pitch_code,R,foul ball on pitchout
+instant_replay_initiator,M,manager
+play_modifier,BL,line drive bunt
+play_modifier,FINT,fan interference
+play_modifier,LTP,lined into triple play
+wind_direction,3,to righ
+wind_direction,7,from right
+protest,X,upheld protest by visiting team
+play_modifier,DP,unspecified double play
+sky,5,dome
+play_modifier,L,line drive
+ump_position,ump1b,first base
+play_modifier,GTP,ground ball triple play
+sky,1,sunny
+play_modifier,P,pop fly
+field_condition,3,damp
+field_position,12,pinch runner
+play_modifier,BG,ground ball bunt
+instant_replay_reason,O,over the fence
+pitch_code,S,swinging strike
+field_position,4,second base
+ejection,P,player
+pitch_code,P,pitchout
+pitch_code,T,foul tip
+play_modifier,G,ground ball
+play_modifier,TP,unspecified thriple play
+play_modifier,BOOT,batting out of turn
+play_modifier,PASS,a runner passed another unner and was called out
+precipitation,5,snow
+pitch_code,X,ball put in play by hitter
+sky,4,night
+play_modifier,INT,interference
+play_modifier,FL,foul
+play_modifier,E$,error on $
+protest,Y,upheld protest by home team
+play_modifier,OBS,obstruction (fielder obstructing a runner)
+play_modifier,TH,throw
+wind_direction,4,left to right
+wind_speed,-1,unknown
+pitch_code,Q,swinging on a pitchout
+field_position,7,left field
+play_modifier,AP,appeal play
+field_position,8,center field
+instant_replay_reason,F,fair/foul
+instant_replay_initiator,U,umpire
+play_modifier,UINT,umpire interference
+play_modifier,BP,pop up bunt
+play_modifier,UREF,umpire review of call on the field
+precipitation,2,drizzle
+play_modifier,TH%,throw to base %
+pitch_code,O,foul tip on bunt
+wind_direction,6,from center
+pitch_code,V,called ball because pitcher went to his mouth
+play_modifier,SF,sacrifice fly
+ejection,T,trainer
+field_position,9,right field
+field_condition,4,dry
+wind_direction,0,unknown
+game_team,1,visiting team

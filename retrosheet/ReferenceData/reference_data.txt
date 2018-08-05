@@ -1,0 +1,420 @@
+﻿ref_data_type|ref_data_code|ref_data_desc
+field_position|5|third base
+batted_ball_type|BINT|batter interference
+ejection|M|manager
+ump_position|umplf|left field
+sky|0|unknown
+ejection|C|coach
+precipitation|0|unknown
+precipitation|4|rain
+field_position|2|catcher
+batted_ball_type|IF|infield fly rule
+game_number|1|first game of double header
+field_condition|0|unknown
+batted_ball_type|MREV|manager challenge of call on field
+field_position|11|pinch hitter
+ump_position|ump3b|third base
+game_team|1|home team
+batted_ball_type|BPDP|bunt popped into double play
+batted_ball_type|FDP|fly ball double play
+field_condition|2|wet
+instant_replay_reason|I|fan interference
+ejection|N|non-uniformed person
+batted_ball_type|BP|bunt pop up
+batted_ball_type|COUR|courtesy runner
+batted_ball_type|SH|sacrifice hit (bunt)
+batted_ball_type|F|fly ball
+ump_position|umphome|home plate
+precipitation|1|none
+batted_ball_type|R$|relay throw from initial fielder to $ with no out
+precipitation|3|showers
+protest|H|disallowed protest by home team
+batted_ball_type|LDP|lined into double play
+temperature|0|unknown
+wind_direction|tolf|to left field
+instant_replay_type|X|other
+wind_direction|tocf|to center field
+batted_ball_type|NDP|no double play credited for this play
+field_position|6|short stop
+ump_position|umprf|right field
+batted_ball_type|GDP|ground ball double play
+game_number|0|single game
+sky|3|overcast
+sky|2|cloudy
+pitch_code|U|unknown or missed pitch
+instant_replay_type|P|home plate collision
+instant_replay_type|H|home run
+instant_replay_type|G|grounds rule
+instant_replay_type|N|fan interference
+instant_replay_type|S|boundary call
+instant_replay_type|C|force play
+instant_replay_type|A|tag play
+instant_replay_type|O|fair/foul outfield
+instant_replay_type|T|trap play outfield
+instant_replay_type|I|hit by a pitch
+instant_replay_type|M|timing play
+instant_replay_type|B|touching a base
+instant_replay_type|R|passing runners
+instant_replay_type|K|record keeping
+instant_replay_type|L|multiple issues
+batted_ball_type|COUB|courtesy batter
+field_position|3|first base
+wind_direction|fromlf|from left field
+field_position|1|pitcher
+batted_ball_type|IPHR|inside park home run
+field_position|0|
+field_condition|1|soaked
+protest|V|disallowed protest by visiting team
+pitch_code|Y|ball put into play on pitchout
+batted_ball_type|COUF|courtesy fielder
+wind_direction|rtol|from right field to left field
+field_position|10|designated hitter
+protest|P|unidentified team
+batted_ball_type|BR|runner hit by batted ball
+batted_ball_type|RINT|runner interference
+batted_ball_type|FO|force out
+batted_ball_type|C|called third strike
+batted_ball_type|BGDP|bunt grounded into double play
+game_number|2|second game of double header
+ump_position|ump2b|second base
+pitch_code|R|foul ball on pitchout
+instant_replay_initiator|M|manager
+batted_ball_type|BL|line drive bunt
+batted_ball_type|FINT|fan interference
+batted_ball_type|LTP|lined into triple play
+wind_direction|torf|to right field
+wind_direction|fromrf|from right field
+protest|X|upheld protest by visiting team
+batted_ball_type|DP|unspecified double play
+sky|5|dome
+batted_ball_type|L|line drive
+ump_position|ump1b|first base
+batted_ball_type|GTP|ground ball triple play
+sky|1|sunny
+batted_ball_type|P|pop fly
+field_condition|3|damp
+field_position|12|pinch runner
+batted_ball_type|BG|ground ball bunt
+instant_replay_reason|O|over the fence
+pitch_code|S|swinging strike
+field_position|4|second base
+ejection|P|player
+pitch_code|P|pitch out
+pitch_code|T|foul tip
+batted_ball_type|G|ground ball
+batted_ball_type|TP|unspecified triple play
+batted_ball_type|BOOT|batting out of turn
+batted_ball_type|PASS|a runner passed another runner and called out
+precipitation|5|snow
+pitch_code|X|ball put in play by hitter
+sky|4|night
+batted_ball_type|INT|interference
+batted_ball_type|FL|foul
+batted_ball_type|E$|error on $
+protest|Y|upheld protest by home team
+batted_ball_type|OBS|obstruction (fielder obstructing a runner)
+batted_ball_type|TH|throw
+wind_direction|ltor|from left field to right field
+wind_speed|-1|unknown
+pitch_code|Q|swinging on a pitchout
+field_position|7|left field
+batted_ball_type|AP|appeal play
+field_position|8|center field
+instant_replay_reason|F|fair/foul
+instant_replay_initiator|U|umpire
+instant_replay_initiator|I|home run
+batted_ball_type|UINT|umpire interference
+batted_ball_type|UREF|umpire review of call on field
+precipitation|2|drizzle
+batted_ball_type|TH%|throw to base %
+pitch_code|O|foul tip on bunt
+wind_direction|fromcf|from center field
+pitch_code|V|called ball because pitcher went to his mouth
+batted_ball_type|SF|sacrifice fly
+ejection|T|trainer
+field_position|9|right field
+field_condition|4|dry
+wind_direction|unknown|unknown
+game_team|0|visiting team
+personnel|M|manager
+personnel|U|umpire
+personnel||unknown
+personnel|0|player career started after 1983
+personnel|1|player career ended before 1984
+season_game_type|R|regular season
+season_game_type|A|all star
+season_game_type|L|league championship
+season_game_type|1|division 1 championship
+season_game_type|2|division 2 championship
+season_game_type|C|wild card
+season_game_type|W|world series championship
+throws|L|left
+throws|R|right
+throws|B|left and right
+bats|L|left
+bats|R|right
+bats|B|left and right
+team_league|A|American
+team_league|N|National
+ballpark_league|AL|American
+ballpark_league|NL|National
+field_position_x|SS|short stop
+field_position_x|OF|out field
+field_position_x|C|catcher
+field_position_x|DH|designated hitter
+field_position_x|3B|third base
+field_position_x|P|pitcher
+field_position_x|LF|left field
+field_position_x|2B|second base
+field_position_x|1B|first base
+field_position_x|RF|right field
+field_position_x||unknown
+field_position_x|PH|pinch hitter
+field_position_x|PR|pinch runner
+field_position_x|CF|center field
+pitch_code|+|following a pickoff throw by catcher
+pitch_code|*|pitch blocked by catcher
+pitch_code|.|play not involving batter
+pitch_code|1|pickoff throw to first
+pitch_code|2|pickoff throw to second
+pitch_code|3|pickoff throw to third
+pitch_code|>|runner going on pitch
+pitch_code|B|ball
+pitch_code|C|called strike
+pitch_code|F|foul
+pitch_code|H|hit batter
+pitch_code|I|intentional ball
+pitch_code|K|strike (unknown type)
+pitch_code|L|foul bunt
+pitch_code|M|missed bunt attempt
+pitch_code|N|no pitch (on balks and interference calls)
+runners_diagram|diagram_path|c:/users/msunk/documents/Visual Studio 2017/retrosheet/retrosheet/RunnersOnBase/
+hit_diagram|diagram_path|c:/users/msunkist/documents/Visual Studio 2017/retrosheet/retrosheet/HitLocations/
+hit_location|78XD|left center line extra deep
+hit_location|7LDF|left field line deep foul
+hit_location|7LSF|left field line short foul
+hit_location|89XD|center right line extra deep
+hit_location|9LDF|right field line deep foul
+hit_location|9LSF|right field line short foul
+hit_location|23F|home first foul
+hit_location|25F|home third foul
+hit_location|34D|first second deep
+hit_location|34S|first second short
+hit_location|3DF|third base deep foul
+hit_location|4MD|second base middle deep
+hit_location|4MS|second base middle short
+hit_location|56D|third short deep
+hit_location|56S|third short short
+hit_location|5DF|third base deep foul
+hit_location|6MD|short stop middle deep
+hit_location|6MS|short stop middle short
+hit_location|78D|left center deep
+hit_location|78S|left center short
+hit_location|7LD|left field line deep
+hit_location|7LF|left field line foul
+hit_location|7LS|left field line short
+hit_location|89D|center field right deep
+hit_location|89S|center field right short
+hit_location|8XD|center field extra deep
+hit_location|9LD|right field line deep
+hit_location|9LF|right field line foul
+hit_location|9LS|right field line short
+hit_location|13|inside infield down first base line
+hit_location|15|inside infield down third base line
+hit_location|1S|catcher pitcher short
+hit_location|23|catcher first
+hit_location|25|catcher third
+hit_location|2F|catcher foul
+hit_location|34|through first base second base hole
+hit_location|3D|first base deep
+hit_location|3F|first base foul
+hit_location|3S|first base short
+hit_location|4D|second base deep
+hit_location|4M|second base middle
+hit_location|4S|second base short
+hit_location|56|through shortstop third base hole
+hit_location|5D|third base deep
+hit_location|5F|third base foul
+hit_location|5S|third base short
+hit_location|6D|short stop deep
+hit_location|6M|short stop middle
+hit_location|6S|short stop short
+hit_location|78|left center
+hit_location|7D|left field deep
+hit_location|7L|left field line drive
+hit_location|7S|left field short
+hit_location|89|center right
+hit_location|8D|center field deep
+hit_location|8S|center field short
+hit_location|9D|right field deep
+hit_location|9L|right field line drive
+hit_location|9S|right field short
+hit_location|1|pitcher
+hit_location|2|home plate
+hit_location|3|first base
+hit_location|4|second base
+hit_location|5|third base
+hit_location|6|short stop
+hit_location|7|left field
+hit_location|8|center field
+hit_location|9|right field
+hit_code|S|single
+hit_code|D|double
+hit_code|T|triple
+hit_code|H|home run
+hit_code|HR|home run
+hit_value|0|no hit
+hit_value|1|single
+hit_value|2|double
+hit_value|3|triple
+hit_value|4|home run
+event_type|1|no play|NP
+event_type|2|out|O
+event_type|3|strike out|K
+event_type|4|stolen base|SB
+event_type|5|defensive indifference
+event_type|6|caught stealing|CS
+event_type|7|pickoff error
+event_type|8|pick off|PO
+event_type|POCS|pick off caught stealing
+event_type|9|wild pitch|WP
+event_type|10|passed ball|PB
+event_type|11|balk|BK
+event_type|12|other advance
+event_type|13|foul ball error|FLE
+event_type|14|walk|2
+event_type|15|intential walk|IW|I
+event_type|16|hit by pitch|HP
+event_type|17|interference|C
+event_type|18|error|E
+event_type|19|fielders choice|FC
+event_type|20|single|S
+event_type|21|double|D
+event_type|22|triple|T
+event_type|23|home run|HR
+event_type|24|missing play
+event_type|DGR|ground rule double
+event_type|DI|defensive indifference - no attempt to prevent stolen base
+event_type|OA|base runner advance not covered by other codes - see comments
+event_play_on_runner|B|batter
+event_play_on_runner|1|runner on first
+event_play_on_runner|2|runner on second
+event_play_on_runner|3|runner on third
+icon|icon_path|c:/users/msunk/documents/Visual Studio 2017/retrosheet/retrosheet/icons/
+icon|MLB|LK-MLB.gif
+icon|A|AmericanLeague.gif
+icon|N|NationalLeague.gif
+icon|ANA|LK-Anaheim_Angels.gif
+icon|BAL|LK-Baltimore_Orioles.gif
+icon|BOS|Boston_Red_Sox.ico
+icon|CHA|LK-Chicago_White_Sox.gif
+icon|CLE|LK-Cleveland_Indians.gif
+icon|DET|LK-Detroit_Tigers.gif
+icon|HOU|LK-Houston_Astros.gif
+icon|KCA|LK-Kansas_City_Royals.gif
+icon|MIN|LK-Minnesota_Twins.gif
+icon|NYA|New_York_Yankees.ico
+icon|OAK|Oakland_Athletics.ico
+icon|SEA|LK-Seattle_Mariners.gif
+icon|TBA|LK-Tampa_Bay_Devil_Rays.gif
+icon|TEX|LK-Texas_Rangers.gif
+icon|TOR|LK-Toronto_Blue_Jays.gif
+icon|ARI|LK-Arizona_Diamond_Backs.gif
+icon|ATL|LK-Atlanta_Braves.gif
+icon|CHN|LK-Chicago_Cubs.gif
+icon|CIN|LK-Cincinnati_Reds.gif
+icon|COL|LK-Colorado_Rockies.gif
+icon|LAN|LK-Los_Angeles_Dodgers.gif
+icon|MIA|LK-Florida_Marlins.gif
+icon|MIL|LK-Milwaukee_Brewers.gif
+icon|NYN|LK-New_York_Mets.gif
+icon|PHI|LK-Philadelphia_Phillies.gif
+icon|PIT|LK-Pittsburgh_Pirates.gif
+icon|SDN|LK-San_Diego_Padres.gif
+icon|SFN|LK-San_Francisco_Giants.gif
+icon|SLN|LK-St_Louis_Cardinals.gif
+icon|WAS|LK-Washington_Nationals.gif
+icon|MON|Montreal_Expos.gif
+icon|CAL|California_Angels.gif
+hit_diagram|78XD|78XD.jpg
+hit_diagram|7LDF|7LDF.jpg
+hit_diagram|7LSF|7LSF.jpg
+hit_diagram|89XD|89XD.jpg
+hit_diagram|9LDF|9LDF.jpg
+hit_diagram|9LSF|9LSF.jpg
+hit_diagram|23F|23F.jpg
+hit_diagram|25F|25F.jpg
+hit_diagram|34D|34D.jpg
+hit_diagram|34S|34S.jpg
+hit_diagram|3DF|3DF.jpg
+hit_diagram|4MD|4MD.jpg
+hit_diagram|4MS|4MS.jpg
+hit_diagram|56D|56D.jpg
+hit_diagram|56S|56S.jpg
+hit_diagram|5DF|5DF.jpg
+hit_diagram|6MD|6MD.jpg
+hit_diagram|6MS|6MS.jpg
+hit_diagram|78D|78D.jpg
+hit_diagram|78S|78S.jpg
+hit_diagram|7LD|7LD.jpg
+hit_diagram|7LF|7LF.jpg
+hit_diagram|7LS|7LS.jpg
+hit_diagram|89D|89D.jpg
+hit_diagram|89S|89S.jpg
+hit_diagram|8XD|8XD.jpg
+hit_diagram|9LD|9LD.jpg
+hit_diagram|9LF|9LF.jpg
+hit_diagram|9LS|9LS.jpg
+hit_diagram|13|13.jpg
+hit_diagram|15|15.jpg
+hit_diagram|1S|1S.jpg
+hit_diagram|23|23.jpg
+hit_diagram|25|25.jpg
+hit_diagram|2F|2F.jpg
+hit_diagram|34|34.jpg
+hit_diagram|3D|3D.jpg
+hit_diagram|3F|3F.jpg
+hit_diagram|3S|3S.jpg
+hit_diagram|4D|4D.jpg
+hit_diagram|4M|4M.jpg
+hit_diagram|4S|4S.jpg
+hit_diagram|56|56.jpg
+hit_diagram|5D|5D.jpg
+hit_diagram|5F|5F.jpg
+hit_diagram|5S|5S.jpg
+hit_diagram|6D|6D.jpg
+hit_diagram|6M|6M.jpg
+hit_diagram|6S|6S.jpg
+hit_diagram|78|78.jpg
+hit_diagram|7D|7D.jpg
+hit_diagram|7L|7L.jpg
+hit_diagram|7S|7S.jpg
+hit_diagram|89|89.jpg
+hit_diagram|8D|8D.jpg
+hit_diagram|8S|8S.jpg
+hit_diagram|9D|9D.jpg
+hit_diagram|9L|9L.jpg
+hit_diagram|9S|9S.jpg
+hit_diagram|1|1.jpg
+hit_diagram|2|2.jpg
+hit_diagram|3|3.jpg
+hit_diagram|4|4.jpg
+hit_diagram|5|5.jpg
+hit_diagram|6|6.jpg
+hit_diagram|7|7.jpg
+hit_diagram|8|8.jpg
+hit_diagram|9|9.jpg
+error_type|F|fielding
+error_type|D|dropped ball
+error_type|T|throwing
+error_type|N|no error
+runner_destination|0|
+runner_destination|1|first base
+runner_destination|2|second base
+runner_destination|3|third base
+runner_destination|4|home
+runner_destination|5|home / unearned
+runner_destination|6|team unearned
+top_bottom|0|↑
+top_bottom|1|↓
+game_data_type|er|earned runs

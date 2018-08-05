@@ -1,0 +1,4 @@
+HOU,A,Houston,Astros
+NYA,A,New York,Yankees
+CHN,N,Chicago,Cubs
+PIT,N,Pittsburgh,Pirates

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings>
+	<reference_data input_path="C:\users\mmr\documents\retrosheet\ReferenceData\" input_file="reference_data.txt" data_loaded="TRUE"/>
+	<ballpark_data input_path="C:\users\mmr\documents\retrosheet\ReferenceData\" input_file="Ballpark.txt" output_path="C:\users\mmr\documents\retrosheet\ReferenceData\Output\" output_file="Ballpark.txt" data_loaded="TRUE"/>
+	<event_data data_id="2016 Regular Season" input_path="C:\users\mmr\documents\retrosheet\2016 Regular Season\" output_path="C:\users\mmr\documents\retrosheet\2016 Regular Season\Output\" data_loaded="TRUE"/>
+</settings>
